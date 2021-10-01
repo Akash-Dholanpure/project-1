@@ -1,0 +1,204 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 0px;
+}
+aside {
+  background: linear-gradient(45deg, red, orange, red);
+  float: left;
+  width: 300px;
+  box-shadow: 0 0 10px black;
+  text-align: center;
+  font-family: arial, sans-serif;
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+aside a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 14px 25px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+aside a:hover {
+  color: white;
+}
+aside img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #ee5c0a;
+  box-shadow: 0 0 10px black;
+  margin-top: 100px;
+}
+#aboutus {
+  margin-top: 140px;
+  margin-left: 320px;
+}
+#frame {
+  color: #2c292c;
+  margin-left: 110px;
+  font-size: 80px;
+  text-shadow: 0 0 10px black;
+  font-family: arial, sans-serif;
+}
+#lname {
+  color: #ee5c0a;
+  margin-left: 200px;
+  font-size: 80px;
+  text-shadow: 0 0 10px black;
+  font-family: arial, sans-serif;
+}
+.main-heading {
+  font-size: 50px;
+  text-shadow: 0 0 10px #ee5c0a;
+}
+.exp-article h2 {
+  font-family: "Lobster", cursive;
+  color: orange;
+}
+
+.exp-article {
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #ee5c0a;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  width: 240px;
+  text-align: center;
+  font-color: rgb(30, 106, 206);
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+}
+.exp-article-button {
+  background-color: #ee5c0a;
+  font-size: 15px;
+  outline: none;
+  padding: 10px 25px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: 0 0 15px #ee5c0a;
+}
+.exp-article:hover {
+  background: linear-gradient(45deg, red, orange, red);
+  transform: perspective(400px) rotateY(-20deg);
+  transition: all 0.9s;
+}
+.edu-article h2 {
+  font-family: "Lobster", cursive;
+  color: orange;
+}
+.edu-article {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  margin: 15px;
+
+  box-shadow: 0 0 20px orangered;
+}
+.edu-article:hover {
+  background: linear-gradient(45deg, red, orange, red);
+  transform: perspective(400px) rotateX(20deg);
+  transition: all 0.9s;
+}
+.skills-article {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  margin: 15px;
+  box-shadow: 0 0 20px orangered;
+}
+
+.skills-article:hover {
+  background: linear-gradient(45deg, red, orange, red);
+  transform: perspective(400px) rotateX(-20deg);
+  transition: all 0.9s;
+}
+.cert-text {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+}
+#skills-section {
+  margin-left: 320px;
+}
+.skills-article {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 15px orangered;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.skills-article:hover {
+  transform: perspective(400px) rotateX(-10deg);
+}
+.skills-article h2 {
+  font-family: "Lobster", cursive;
+  color: orange;
+}
+.skills-article p {
+  font-size: 18px;
+  color: gray;
+}
+.fab,
+.fas {
+  margin: 10px;
+}
+.fab:hover,
+.fas:hover {
+  color: orangered;
+}
+
+#cert-section {
+  margin-left: 320px;
+  padding: 20px;
+}
+#cert-text {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 50px;
+}
+.cert-article {
+  padding: 10px;
+  box-shadow: 0 0 15px orangered;
+  border-radius: 10px;
+  width: 180px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  transition: all 0.5s;
+}
+.cert-article p {
+  font-size: 18px;
+}
+.cert-article:hover {
+  background: linear-gradient(45deg, red, orange, red);
+  color: white;
+  transform: perspective(400px) translateY(-20px);
+}
+.cert-article img {
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+}
+#exp-section {
+  margin-top: 150px;
+  margin-left: 320px;
+}
+#edu-section {
+  margin-left: 320px;
+}
+#interests {
+  margin-left: 320px;
+}
+#cert-section {
+  margin-left: 320px;
+}
